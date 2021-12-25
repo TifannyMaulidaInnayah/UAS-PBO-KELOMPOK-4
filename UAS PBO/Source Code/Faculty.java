@@ -40,10 +40,10 @@ public class Faculty extends Employee implements Cloneable {
 			return FACULTY_MONTHLY_SALARY;
 		}
 		else if(prof == Level.ASSOCIATE_PROFESSOR) {
-			return FACULTY_MONTHLY_SALARY*1.5;
+			return FACULTY_MONTHLY_SALARY*1.2;
 		}
 		else {
-			return FACULTY_MONTHLY_SALARY*2.0;
+			return FACULTY_MONTHLY_SALARY*1.4;
 		}
 		
 	}		
